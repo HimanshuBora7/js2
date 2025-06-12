@@ -102,7 +102,8 @@ Before ES6 (2015), JavaScript used constructor functions and prototypes instead 
 /*A more precise definition could be:
 Methods are functions that are properties of an object, typically used to define the object's behavior.
 
-Objects are data structures containing properties and methods. They may be instances of a class (in modern JavaScript) or a constructor function, or they may be created without a class (e.g., via object literals).
+Objects are data structures containing 
+properties and methods. They may be instances of a class (in modern JavaScript) or a constructor function, or they may be created without a class (e.g., via object literals).
 
  */
 
