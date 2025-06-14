@@ -1,0 +1,6 @@
+Two important things to master in javascript to master majority of javascript
+1. Objects 
+2. Events 
+
+
+
