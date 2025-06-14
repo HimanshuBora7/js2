@@ -47,3 +47,4 @@ console.log("c" ,myArr);
 console.log(myn2);
 
 // splice operation  changes the original array also but slice do not (important)
+
