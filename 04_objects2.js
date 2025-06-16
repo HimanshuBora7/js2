@@ -27,7 +27,7 @@ const obj2 = {3: "c" , 4 : " d"}
 
 //another syntax
 const obj3 = {...obj1, ...obj2 }
-console.log(obj3);
+// console.log(obj3);
 
 const users = [ //array of objects 
     {
@@ -42,14 +42,29 @@ const users = [ //array of objects
 
 ]
 
-console.log(users[0].email)
-console.log(minderUSer);
-console.log(Object.keys(minderUSer)); //this return all the keys in the form of array 
+// console.log(users[0].email)
+// console.log(minderUSer);
+// console.log(Object.keys(minderUSer)); //this return all the keys in the form of array 
 
-console.log(Object.values(minderUSer));
-console.log(Object.entries(minderUSer)); // return a big array which consist of key value pair in the form of individual arrays
+// console.log(Object.values(minderUSer));
+// console.log(Object.entries(minderUSer)); // return a big array which consist of key value pair in the form of individual arrays
 
-console.log(minderUSer.hasOwnProperty('isloggedIn')); //return a boolean answer after checking if the entered property is in the defined object exists or not 
+// console.log(minderUSer.hasOwnProperty('isloggedIn')); //return a boolean answer after checking if the entered property is in the defined object exists or not 
+
+
+
+const course = {
+    coursename: " js",
+    price : "999",
+    CourseInstructor :  " bochie"
+}
+// console.log(course.CourseInstructor)
+
+//another syntax to use the course instructor repeatedly 
+const{CourseInstructor : instructor} = course
+// const{field of object : new name if wanna give some } = object of whose field we gonna use 
+// console.log(CourseInstructor)
+console.log(instructor);
 
 
 
