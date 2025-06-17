@@ -1,4 +1,4 @@
-
+//passing objects and array to functions
 
 function sayMyName() {
   console.log("b");
