@@ -7,10 +7,10 @@ const userEmail = [] ; //this empty array will result in true value
 
 //here we have considered that userEmail if consists some literal then it is true ,thus this is called truthy value  
 if(userEmail){
-    console.log("Got user email")
+    // console.log("Got user email")
 }
 else{
-    console.log("Don't have user email");
+    // console.log("Don't have user email");
 }
 
 // falsy values 
@@ -33,8 +33,29 @@ else{
 const emptyObj = {}
 
 if(Object.keys(emptyObj).length === 0){
-    console.log("Object is empty");
+    //console.log("Object is empty");
     
 }
+
+// Nullish Coalescing operator (??) : null undefined 
+
+//this way if we get null ir undefined values instead of assigning them we can use safe values for our code to work 
+
+
+let val1;
+// val1 = 5 ?? 10 
+// val1 = null ?? 10
+//   val1 = undefined ?? 15
+
+console.log(val1);
+
+// ternary operator 
+
+// condition ? true : false
+
+const iceTeaPrice = 100;
+
+iceTeaPrice <= 80 ? console.log("Less than 80") : console.log("more than 80")
+
 
 
