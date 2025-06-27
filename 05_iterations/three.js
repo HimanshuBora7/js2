@@ -56,9 +56,3 @@ for (const [key , value] of map) {
 // // TypeError: myObject is not iterable
 
 
-
-
-
-
-
-
