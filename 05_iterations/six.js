@@ -22,12 +22,12 @@ const myNums = [ 1,2,3,4,5,,6,7,8,9,10]
 const newNums= myNums.filter( (num) =>  {
     return num > 4
 } )
-console.log(newNums);
+// console.log(newNums);
 
 //other way of declaring without using the scope 
 
-const myNumsOdd = myNums.filter((odd_item) => !(odd_item % 2 == 0))
-console.log(myNumsOdd);
+// const myNumsOdd = myNums.filter((odd_item) => !(odd_item % 2 == 0))
+// console.log(myNumsOdd);
 
 //using filter inside forEach loop 
 
@@ -65,9 +65,9 @@ const books = [
 
 const userBooks = books.filter((bk) =>bk.genre === 'history' )
 
-console.log(userBooks);
+// console.log(userBooks);
 
-const PublishAfter2k = books.filter((bkP) => {return bkP.publish >= 2000})
+const PublishAfter2k = books.filter((bkP) => {return bkP.publish >=1995 && bkP.genre === "history" })
 console.log(PublishAfter2k);
 
 
