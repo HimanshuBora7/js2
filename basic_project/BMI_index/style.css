@@ -1,0 +1,47 @@
+.container {
+  border: 2px solid palegreen;
+  width: 100%;
+  height: 100vh;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+#height,
+#weight {
+  width: 150px;
+  height: 25px;
+  margin-top: 30px;
+}
+#weight-guide {
+  margin-left: 42vw;
+  margin-top: 50px;
+  padding: 20px;
+  font-size: larger;
+  width: fit-content;
+  border: 1px solid pink;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+#results {
+  font-size: 35px;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+
+button {
+  border: 1px solid violet;
+  width: 150px;
+  margin-left: 90px;
+  margin-top: 20px;
+  background-color: #fffb91;
+  padding: 15px;
+  color: #0d1319;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+button:hover {
+  background-color: #e6e033;
+}
